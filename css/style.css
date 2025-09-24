@@ -52,6 +52,8 @@ body {
 .hero-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  max-width: 130rem;
+  margin: 0 auto;
 }
 
 .hero-image {
