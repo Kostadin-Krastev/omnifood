@@ -41,3 +41,8 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+.hero-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
