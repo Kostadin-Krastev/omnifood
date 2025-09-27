@@ -83,6 +83,9 @@ body {
   font-size: 2rem;
   text-decoration: none;
   border-radius: 9px;
+
+  /* add hover animation (always put the transition on the original state) */
+  transition: background-color 0.3s;
 }
 
 .btn-full:link,
