@@ -114,6 +114,34 @@ body {
   background-color: #fdf2e9;
 }
 
+.delivered-meals {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.delivered-images {
+  display: flex;
+}
+
+.delivered-images img {
+  margin-right: -1.6rem;
+  height: 4.8rem;
+  width: 4.8rem;
+  border: 3px solid #fdf2e9;
+  border-radius: 50%;
+}
+
+.delivered-images img:last-child {
+  margin: 0;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
 .hero-image {
   max-width: 100%;
   height: auto;
