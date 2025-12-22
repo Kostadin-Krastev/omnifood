@@ -102,7 +102,9 @@ body {
 /***********************/
 /* HEADER */
 /***********************/
-
+.logo {
+  height: 2.4rem; /*for images is a bit easy to work with height only*/
+}
 /***********************/
 /* HERO SECTION */
 /***********************/
