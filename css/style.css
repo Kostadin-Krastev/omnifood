@@ -102,6 +102,16 @@ body {
 /***********************/
 /* HEADER */
 /***********************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+
+  height: 9.6rem; /*задава се фиксирана височина, защото така е по-лесно да се работи, когато header е sticy*/
+  padding: 0 4.8rem;
+}
+
 .logo {
   height: 2.4rem; /*for images is a bit easy to work with height only*/
 }
