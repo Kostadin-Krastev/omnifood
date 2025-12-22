@@ -5,9 +5,14 @@
 
 - Font-weight
 Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
 
 - line-height:
 Default: 1
+Small: 1.05
+Paragraph default: 1.6
 
 --- 02 COLORS
 - Primary: #e67e22
@@ -21,7 +26,7 @@ Default: 1
 --- 05 SHADOWS
 
 --- 06 BORDER_RADIUS
-
+Defualt: 9px;
 --- 07 WHITESPACE
 
 - Spacing system (px)
@@ -121,12 +126,14 @@ body {
 /***********************/
 .main-nav-list {
   display: flex;
+  align-items: center;
   gap: 3.2rem;
   list-style-type: none;
 }
 
 .main-nav-link:link,
 .main-nav-link:visited {
+  display: inline-block; /*По-рано беше стандартна практика да се слага display: inline-block на a елементи, за да работи padding коректно. Днес обаче display трябва да се избира според контекста (flex, block, inline-flex).*/
   font-size: 1.8rem;
   font-weight: 500;
   text-decoration: none;
@@ -137,6 +144,19 @@ body {
 .main-nav-link:hover,
 .main-nav-link:active {
   color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
 }
 
 /***********************/
