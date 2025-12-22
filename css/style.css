@@ -47,33 +47,15 @@ body {
   font-weight: 400;
   color: #555;
 }
-
-.section-hero {
-  padding: 9.6rem 0;
-  background-color: #fdf2e9;
-}
-
-.hero-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 9.6rem;
-  align-items: center;
-  max-width: 130rem;
-  margin: 0 auto;
-}
-
+/***********************/
+/* GENERAL REUSABLE COMPONENTS */
+/***********************/
 .heading-primary {
   margin-bottom: 3.2rem;
   font-size: 5.2rem;
   line-height: 1.05;
   letter-spacing: -0.5px;
   color: #333;
-}
-
-.hero-description {
-  margin-bottom: 4.8rem;
-  font-size: 2rem;
-  line-height: 1.6;
 }
 
 .button:link,
@@ -114,6 +96,36 @@ body {
   background-color: #fdf2e9;
 }
 
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+/***********************/
+/* HEADER */
+/***********************/
+
+/***********************/
+/* HERO SECTION */
+/***********************/
+.section-hero {
+  padding: 9.6rem 0;
+  background-color: #fdf2e9;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 9.6rem;
+  align-items: center;
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.hero-description {
+  margin-bottom: 4.8rem;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
 .delivered-meals {
   display: flex;
   align-items: center;
@@ -150,8 +162,4 @@ body {
 .hero-image {
   max-width: 100%;
   height: auto;
-}
-
-.margin-right-sm {
-  margin-right: 1.6rem !important;
 }
