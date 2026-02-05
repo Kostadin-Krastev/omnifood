@@ -129,6 +129,17 @@
   color: #ddd;
 }
 
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .step-img {
-  width: 50%;
+  width: 35%;
 }
