@@ -206,6 +206,10 @@
   padding: 9.6rem 0;
 }
 
+.meal-tags {
+  margin-bottom: 1.2rem;
+}
+
 .tag {
   display: inline-block;
   padding: 0.4rem 0.8rem;
