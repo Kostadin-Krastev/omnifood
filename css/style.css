@@ -220,7 +220,11 @@
   list-style-type: none;
 }
 
-.meal-attribute {
+.meal-attribut {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.6rem;
   font-size: 1.8rem;
 }
 
