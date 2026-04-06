@@ -356,8 +356,17 @@
   padding: 1.6rem 1.6rem 1.6rem 0;
 }
 
+.gallery-item {
+  overflow: hidden; /*the image will not become bigger and overflow its parent. Instead will be like a zoom effect*/
+}
+
 /* By default images are inline element. We make the block elements to remove the white space that is created between elements  */
 .gallery-item img {
   display: block;
   width: 100%;
+  transition: all 0.4s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
 }
