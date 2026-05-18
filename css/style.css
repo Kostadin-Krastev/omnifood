@@ -370,8 +370,24 @@
 }
 
 .pricing-plan--complete {
+  position: relative;
   padding: 4.8rem;
+  overflow: hidden;
   background-color: #fdf2e9;
+}
+
+.pricing-plan--complete::after {
+  position: absolute;
+  top: 6%;
+  right: -18%;
+  transform: rotate(45deg);
+  content: 'Best value';
+  padding: 0.8rem 8rem;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #ffd43b;
 }
 
 .plan-header {
