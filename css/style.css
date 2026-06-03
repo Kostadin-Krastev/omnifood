@@ -489,8 +489,16 @@
 }
 
 .cta-text {
+  margin-bottom: 4.8rem;
   font-size: 1.8rem;
   line-height: 1.8;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
 }
 
 .cta-image-box {
