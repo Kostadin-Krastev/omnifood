@@ -138,7 +138,7 @@ body {
   text-transform: uppercase;
   color: #cf711f;
 }
-
+.btn,
 .button:link,
 .button:visited {
   display: inline-block;
@@ -150,6 +150,11 @@ body {
 
   /* add hover animation (always put the transition on the original state) */
   transition: all 0.3s;
+
+  /* style the form sign up button with class .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .btn-full:link,
