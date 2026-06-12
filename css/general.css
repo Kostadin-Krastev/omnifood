@@ -25,7 +25,9 @@ Paragraph default: 1.6
 #fdf2e9
 #fae5d3
 #eb984e
-- Shades: #cf711f
+- Shades: 
+#cf711f
+#45260a
 - Accents:
 - Greys: 
 #6f6f6f (lightest grey allowed on #fdf2e9)
@@ -180,6 +182,18 @@ body {
   /* Trick to add border inside so the elements don't move */
   box-shadow: inset 0 0 0 3px #fff;
   background-color: #fdf2e9;
+}
+
+.btn--form {
+  align-self: end;
+  padding: 1.2rem;
+  color: #fdf2e9;
+  background-color: #45260a;
+}
+
+.btn--form:hover {
+  color: #555;
+  background-color: #fff;
 }
 
 .link:link,
