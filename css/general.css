@@ -52,6 +52,13 @@ Medium: 11px;
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #cf711f; */
+  /* outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
 html {
   /* font-size: 10px; */
   /* 10px / 16px = 0.625 = 62.5*/
