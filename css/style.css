@@ -547,7 +547,11 @@
 /* FOOTER SECTION */
 /***********************/
 .footer {
-  padding: 9.6rem 0;
+  padding: 12.8rem 0;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 
 .logo-col {
@@ -582,6 +586,16 @@
   margin-bottom: 4rem;
   font-size: 1.8rem;
   font-weight: 500;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.contacts p:first-child {
+  margin-bottom: 2.4rem;
 }
 
 .footer-nav {
