@@ -577,7 +577,7 @@
 .social-links {
   display: flex;
   gap: 2.4rem;
-  list-style:none;
+  list-style: none;
 }
 
 .copyright {
@@ -604,8 +604,8 @@
 }
 
 .footer-nav {
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
   gap: 2.4rem;
   list-style: none;
 }
@@ -620,5 +620,5 @@
 
 .footer-links:hover,
 .footer-links:active {
-  sa
+  color: #555;
 }
