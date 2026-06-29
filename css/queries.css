@@ -61,6 +61,36 @@ Instead they use the default 16px */
   }
 }
 
+/***********************/
+/* BELOW 940px (Tablets) */
+/***********************/
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 6.4rem;
+    padding: 0 8rem;
+  }
+
+  .hero-text-box,
+  .hero-image-box {
+    text-align: center;
+  }
+
+  .hero-image {
+    max-width: 60%;
+  }
+
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+}
+
 /* 
 - FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
