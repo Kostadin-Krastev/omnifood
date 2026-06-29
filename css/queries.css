@@ -89,6 +89,10 @@ Instead they use the default 16px */
     justify-content: center;
     margin-top: 3.2rem;
   }
+
+  .logos img {
+    height: 2.4rem;
+  }
 }
 
 /* 
