@@ -97,6 +97,10 @@ Instead they use the default 16px */
   .step-number {
     font-size: 7.4rem;
   }
+
+  .meal-content {
+    padding: 2.4rem 3.2rem 2.4rem 3.2rem;
+  }
 }
 
 /* 
