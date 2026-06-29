@@ -109,6 +109,19 @@ Instead they use the default 16px */
   .gallery {
     grid-template-columns: repeat(6, 1fr);
   }
+
+  .cta {
+    /* 3/5 = 60% + 2/5 = 40% */
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .btn--form {
+    margin-top: 1.2rem;
+  }
 }
 
 /* 
