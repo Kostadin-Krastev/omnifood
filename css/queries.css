@@ -93,6 +93,10 @@ Instead they use the default 16px */
   .logos img {
     height: 2.4rem;
   }
+
+  .step-number {
+    font-size: 7.4rem;
+  }
 }
 
 /* 
