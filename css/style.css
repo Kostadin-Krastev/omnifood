@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   background-color: #fdf2e9;
 
   height: 9.6rem; /*задава се фиксирана височина, защото така е по-лесно да се работи, когато header е sticy*/
