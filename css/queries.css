@@ -132,6 +132,7 @@ Instead they use the default 16px */
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s;
 
     position: absolute;
     top: 0;
@@ -140,6 +141,25 @@ Instead they use the default 16px */
     height: 100vh;
 
     background-color: #fff;
+
+    /* Hide navigation */
+    /* display: none; - Allows NO transitions animations at all */
+
+    /* Below are the steps of the correct way of hiding an element */
+    /* 1) Hide the element visually */
+    opacity: 0;
+
+    /* 2) Make it inaccessible for mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
   }
 
   .main-nav-list {
