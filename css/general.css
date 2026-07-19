@@ -70,6 +70,7 @@ html {
 
   /* Only works is there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
