@@ -142,7 +142,11 @@ Instead they use the default 16px */
     height: 100vh;
     transform: translateX(100%);
 
-    background-color: rgba(255, 255, 255, 0.97);
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-backdrop-filter: blur(
+      10px
+    ); /*-webkit- is a prefix that is used when some of the browser do not support the property*/
+    backdrop-filter: blur(10px);
 
     /* Hide navigation */
     /* display: none; - Allows NO transitions animations at all */
