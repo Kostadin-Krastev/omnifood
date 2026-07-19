@@ -11,6 +11,15 @@ mobileMenuButton.addEventListener('click', function () {
   headerEl.classList.toggle('nav-open');
 });
 
+// Close Mobile navigation when one of list items is clicked
+const allLinks = document.querySelectorAll('.main-nav-link');
+
+allLinks.forEach(function (link) {
+  link.addEventListener('click', function () {
+    headerEl.classList.remove('nav-open');
+  });
+});
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
